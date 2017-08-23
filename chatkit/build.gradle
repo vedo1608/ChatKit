@@ -6,13 +6,13 @@ group = 'com.github.vedo1608'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25"
 
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 2
-        versionName "1.0.5"
+        versionCode 3
+        versionName "1.0.6"
 
         consumerProguardFiles 'proguard.txt'
     }
