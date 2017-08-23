@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
+apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.vedo1608'
 
@@ -9,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0.4"
+        versionCode 2
+        versionName "1.0.5"
 
         consumerProguardFiles 'proguard.txt'
     }
