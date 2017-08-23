@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.vedo1608'
@@ -11,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 3
-        versionName "1.0.6"
+        versionCode 4
+        versionName "1.0.7"
 
         consumerProguardFiles 'proguard.txt'
     }
@@ -22,16 +21,6 @@ android {
         }
     }
 }
-
-//publish {
-//    groupId = 'com.github.stfalcon'
-//    artifactId = 'chatkit'
-//    publishVersion = '0.2.2'
-//    desc = 'ChatKit - is a library designed to simplify the development of UI for such a trivial task as chat. It have flexible possibilities for styling, customizing and data management'
-//    licences = ['Apache-2.0']
-//    uploadName = 'ChatKit'
-//    website = 'https://github.com/stfalcon-studio/ChatKit.git'
-//}
 
 ext {
     supportVersion = '25.3.1'
