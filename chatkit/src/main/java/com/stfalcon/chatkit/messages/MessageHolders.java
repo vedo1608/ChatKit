@@ -322,7 +322,7 @@ public class MessageHolders {
     * PRIVATE METHODS
     * */
 
-    protected ViewHolder getHolder(ViewGroup parent, int viewType, MessagesListStyle messagesListStyle) {
+    public ViewHolder getHolder(ViewGroup parent, int viewType, MessagesListStyle messagesListStyle) {
         switch (viewType) {
             case VIEW_TYPE_DATE_HEADER:
                 return getHolder(parent, dateHeaderLayout, dateHeaderHolder, messagesListStyle);
@@ -348,7 +348,7 @@ public class MessageHolders {
     }
 
     @SuppressWarnings("unchecked")
-    protected void bind(final ViewHolder holder, final Object item, boolean isSelected,
+    public void bind(final ViewHolder holder, final Object item, boolean isSelected,
                         final ImageLoader imageLoader,
                         final View.OnClickListener onMessageClickListener,
                         final View.OnLongClickListener onMessageLongClickListener,
@@ -381,7 +381,7 @@ public class MessageHolders {
     }
 
 
-    protected int getViewType(Object item, String senderId) {
+    public int getViewType(Object item, String senderId) {
         boolean isOutcoming = false;
         int viewType;
 

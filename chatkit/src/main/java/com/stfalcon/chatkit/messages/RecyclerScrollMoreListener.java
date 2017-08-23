@@ -21,7 +21,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 
-class RecyclerScrollMoreListener
+public class RecyclerScrollMoreListener
         extends RecyclerView.OnScrollListener {
 
     private OnLoadMoreListener loadMoreListener;
