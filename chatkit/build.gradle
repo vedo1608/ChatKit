@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
+group = 'com.github.vedo1608'
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
