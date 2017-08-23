@@ -381,7 +381,7 @@ public class MessageHolders {
     }
 
 
-    public int getViewType(Object item, String senderId) {
+    protected int getViewType(Object item, String senderId) {
         boolean isOutcoming = false;
         int viewType;
 
